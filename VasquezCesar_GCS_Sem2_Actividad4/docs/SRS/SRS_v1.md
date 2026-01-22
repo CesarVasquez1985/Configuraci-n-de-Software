@@ -10,6 +10,7 @@ Este documento define los requisitos funcionales y no funcionales del proyecto b
 3. **RF-03**: El sistema debe cargar la configuración al iniciar.
 4. **RF-04**: El sistema debe mostrar la versión actual del proyecto en la interfaz.
 5. **RF-05**: El sistema debe permitir la actualización del mensaje de bienvenida mediante configuración.
+ 6. **RF-06**: El sistema debe permitir exportar la configuración actual a un archivo desde la interfaz.
 
 ## 3. Requisitos No Funcionales
 
@@ -26,6 +27,7 @@ Este documento define los requisitos funcionales y no funcionales del proyecto b
 | RF-03     | src/main.ts         |
 | RF-04     | src/index.html      |
 | RF-05     | config/config.example |
+| RF-06     | src/app/, config/     |
 | RNF-01    | README.md, docs/SDD |
 | RNF-02    | config/config.example |
 | RNF-03    | src/index.html      |
